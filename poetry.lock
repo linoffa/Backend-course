@@ -52,13 +52,13 @@ trio = ["trio (>=0.26.1)"]
 
 [[package]]
 name = "async-timeout"
-version = "5.0.0"
+version = "5.0.1"
 description = "Timeout context manager for asyncio programs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "async_timeout-5.0.0-py3-none-any.whl", hash = "sha256:904719a4bd6e0520047d0ddae220aabee67b877f7ca17bf8cea20f67f6247ae0"},
-    {file = "async_timeout-5.0.0.tar.gz", hash = "sha256:49675ec889daacfe65ff66d2dde7dd1447a6f4b2f23721022e4ba121f8772a85"},
+    {file = "async_timeout-5.0.1-py3-none-any.whl", hash = "sha256:39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c"},
+    {file = "async_timeout-5.0.1.tar.gz", hash = "sha256:d9321a7a3d5a6a5e187e824d2fa0793ce379a202935782d555d6e9d2735677d3"},
 ]
 
 [[package]]
@@ -646,13 +646,13 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.7
 
 [[package]]
 name = "tenacity"
-version = "9.0.0"
+version = "8.5.0"
 description = "Retry code until it succeeds"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "tenacity-9.0.0-py3-none-any.whl", hash = "sha256:93de0c98785b27fcf659856aa9f54bfbd399e29969b0621bc7f762bd441b4539"},
-    {file = "tenacity-9.0.0.tar.gz", hash = "sha256:807f37ca97d62aa361264d497b0e31e92b8027044942bfa756160d908320d73b"},
+    {file = "tenacity-8.5.0-py3-none-any.whl", hash = "sha256:b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"},
+    {file = "tenacity-8.5.0.tar.gz", hash = "sha256:8bc6c0c8a09b31e6cad13c47afbed1a567518250a9a171418582ed8d9c20ca78"},
 ]
 
 [package.extras]
@@ -691,4 +691,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "fef56b4196469b7270cbd4cc7fb3d570ef6455dfecbe63fbb044c936047d38e4"
+content-hash = "c82fce1173c66e919f2ac34fd1c40dc3e404e9e5861cac3bedecdcd804691b05"
