@@ -26,7 +26,7 @@ class PassengerRepository:
         self,
         session: AsyncSession,
     ) -> list[PassengerSchema]:
-        query = f"select * from {settings.POSTGRES_SCHEMA}.passengers;"
+        query = f"select * from {settings.POSTGRES_SCHEMA}.passenger;"
 
         passengers = await session.execute(text(query))
 
