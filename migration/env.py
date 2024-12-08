@@ -76,6 +76,7 @@ def do_run_migrations(connection):
 
     with context.begin_transaction():
         context.execute(CREATE_SCHEMA_QUERY)
+        # context.execute(f"SET search_path TO {settings.POSTGRES_SCHEMA};")
         context.run_migrations()
 
 

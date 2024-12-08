@@ -1,12 +1,13 @@
 from pydantic import BaseModel, Field, ConfigDict
 
-
-class PassengerSchema(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
-
-    id: int
+class PassengerCreateUpdateSchema(BaseModel):
     first_name: str
     last_name: str
     patronymic: str | None = Field(default=None)
     age: int
     sex: str
+
+class PassengerSchema(PassengerCreateUpdateSchema):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
